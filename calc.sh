@@ -9,11 +9,18 @@
   # Subtract
   # Exit
 
-for action in Add Subtract Exit; do
-  echo $action
-done
+#for action in Add Subtract Exit; do
+ # echo $action
+#done
 
 # Then, capture the user selection.
 # If the selection matches a supported operation, execute the operation.
+
+if [[ 20 -gt 3 ]]; then
+  echo "20 is greater than 3"
+fi
+
 # If the selection does not match a support operation, display an error message.
+
+
 # When the operation is complete, redisplay the menu.

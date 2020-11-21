@@ -16,11 +16,16 @@
 # Then, capture the user selection.
 # If the selection matches a supported operation, execute the operation.
 
-if [[ 20 -gt 3 ]]; then
-  echo "20 is greater than 3"
-fi
+#if [[ 20 -gt 3 ]]; then
+ # echo "20 is greater than 3"
+#fi
 
 # If the selection does not match a support operation, display an error message.
 
+if [[ 3 -gt 20 ]]; then
+ echo "3 is greater than 20"
+else
+ echo "3 is not greater that 20"
+fi
 
 # When the operation is complete, redisplay the menu.

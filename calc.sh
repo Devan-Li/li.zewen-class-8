@@ -25,7 +25,7 @@
 if [[ 3 -gt 20 ]]; then
  echo "3 is greater than 20"
 else
- echo "3 is not greater that 20"
+ echo "that is the wrong answer"
 fi
 
 # When the operation is complete, redisplay the menu.

@@ -22,10 +22,15 @@
 
 # If the selection does not match a support operation, display an error message.
 
-if [[ 3 -gt 20 ]]; then
- echo "3 is greater than 20"
-else
- echo "that is the wrong answer"
-fi
+#if [[ 3 -gt 20 ]]; then
+# echo "3 is greater than 20"
+#else
+# echo "that is the wrong answer"
+#fi
 
 # When the operation is complete, redisplay the menu.
+
+while [[ 6 -gt 5 ]]
+do 
+ echo "6 is greater than 5."
+done
